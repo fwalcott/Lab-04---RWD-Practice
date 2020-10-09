@@ -1,0 +1,102 @@
+ body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  }
+  
+  h1 {
+	text-align: center;
+	padding: 20px 0;
+	display: inline-block;
+	margin: 0px auto;
+	width: 100%;
+	background-color: rgb(156, 255, 126);
+	font-size: 30px;
+  }
+  
+  .main {
+	max-width: 1200px;
+	margin: 30px auto;
+	padding: 0;
+  }
+  
+  div {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .nav {
+	display: inline-block;
+	padding: 120px 0;
+	margin: 0px auto;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(14, 218, 233);
+  }
+  
+  .p-one {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 120px 0;
+	margin: 0px;
+	background-color: red; 
+  }
+  
+  .p-two {
+	display: block;
+	float: right;
+	width: 50%;
+	text-align: center;
+	padding: 120px 0; 
+	margin: 0px;
+	background-color: #daaa0c;   
+  }
+  
+  footer {
+	display: inline-block;
+	padding: 120px 0;
+	margin: 0px auto;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(156, 255, 126);
+  }
+  
+ 
+	  @media only screen and (min-width: 401px) and (max-width: 780px)  {
+	
+		.p-one {
+			background-color: rgb(117, 117, 153);
+			width: 100%;
+		}
+		  
+		  .p-two { 
+			background-color: rgb(240, 205, 9); 
+			width: 100%;
+		  }  
+	  
+		  h1, footer {
+			  background-color: lightcoral;
+		  } 
+		  .nav {
+			  background-color: slateblue;
+		  }  
+		 
+		  @media only screen and (max-width: 400px){
+			.p-one {
+			  width: 100%; 
+			  background-color: green;
+			}
+			
+			.p-two {
+			  width: 100%; 
+			  background-color: purple;
+			}  
+		
+			h1, footer {
+				background-color: orange 
+			} 
+			.nav {
+				background-color: red 
+			} 
